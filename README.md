@@ -5,10 +5,12 @@ Decodes xor'ed passwords stored in the security.xml for Websphere Application Se
 
 Can be run in python or wsadmin.sh using jython
 
-Usage: decode_xor.py <xor'ed string>
+----
 
-Example: wsadmin.sh -f decode_xor.py {xor}Lz4sLCgwLTs=
+Usage: xor_decode.py <xor string>
+
+Example: wsadmin.sh -f xor_decode.py {xor}Lz4sLCgwLTs=
 
 or
 
-Example: python decode_xor.py {xor}Lz4sLCgwLTs=
+Example: python xor_decode.py {xor}Lz4sLCgwLTs=
