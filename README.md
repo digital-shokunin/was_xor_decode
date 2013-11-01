@@ -7,8 +7,9 @@ have to trust websites with your passwords, which may be blocked at your workpla
 Can be run in python or wsadmin.sh using jython
 
 ----
+###Usage:
 
-    Usage: xor_decode.py <xor string>
+    xor_decode.py <xor string>
 
     Example: wsadmin.sh -lang jython -f xor_decode.py {xor}Lz4sLCgwLTs=
 
