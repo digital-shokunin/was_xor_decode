@@ -8,10 +8,10 @@ Can be run in python or wsadmin.sh using jython
 
 ----
 
-Usage: xor_decode.py <xor string>
+    Usage: xor_decode.py <xor string>
 
-Example: wsadmin.sh -f xor_decode.py {xor}Lz4sLCgwLTs=
+    Example: wsadmin.sh -lang jython -f xor_decode.py {xor}Lz4sLCgwLTs=
 
-or
+    or
 
-Example: python xor_decode.py {xor}Lz4sLCgwLTs=
+    Example: python xor_decode.py {xor}Lz4sLCgwLTs=
