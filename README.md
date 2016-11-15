@@ -16,3 +16,8 @@ Can be run in python or wsadmin.sh using jython
     or
 
     Example: python xor_decode.py {xor}Lz4sLCgwLTs=
+
+
+###Command to easily find passwords(on Unix/Linux):
+
+    ps -eaf |grep java |grep com.ibm.ws | awk '{for(i=1;i<=NF;i++){if ($i ~ /user\.install\.root/){print $i}}}' | awk -F'=' '{print $2}' |xargs -I % find % -name "security.xml" -exec grep {xor} '{}' \; | awk '{for(i=1;i<=NF;i++){if ($i ~ /password/){print $i}}}'
